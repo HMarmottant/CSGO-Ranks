@@ -856,8 +856,9 @@ Read port: 51906
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileun1k5M\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:51895/devtools/browser/af2065c8-8f08-4eea-a858-ff998a8fbf23
 JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
-1:51977
-1663350035331	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "51978" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileqFOKPX"
+1663352436028	Marionette	INFO	Stopped listening on port 51906
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+978" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileqFOKPX"
 1663350035540	Marionette	INFO	Marionette enabled
 1663350035543	Marionette	INFO	Listening on port 51989
 WebDriver BiDi listening on ws://localhost:51978
@@ -915,8 +916,10 @@ Read port: 52591
 1663351270640	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilegjSI4s\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:52581/devtools/browser/df97c1d3-058f-47dd-b067-cef882a39b9e
-1663351352766	geckodriver	INFO	Listening on 127.0.0.1:52659
-1663351355790	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--window-size=1920,1200" "--remote-debugging-port" "52660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileNxe5wN"
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1663352437025	Marionette	INFO	Stopped listening on port 52591
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+660" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileNxe5wN"
 1663351356000	Marionette	INFO	Marionette enabled
 1663351356002	Marionette	INFO	Listening on port 52670
 WebDriver BiDi listening on ws://localhost:52660
@@ -957,3 +960,487 @@ Read port: 52969
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileA4lg85\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://localhost:52958/devtools/browser/aaaff8ff-1fef-4fc9-b296-edb38772989f
 1663351874886	Marionette	INFO	Stopped listening on port 52969
+1663352477200	geckodriver	INFO	Listening on 127.0.0.1:53248
+1663352480233	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53249" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileqxah7e"
+*** You are running in headless mode.
+1663352480449	Marionette	INFO	Marionette enabled
+1663352480453	Marionette	INFO	Listening on port 53260
+WebDriver BiDi listening on ws://localhost:53249
+Read port: 53260
+1663352480601	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileqxah7e\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53249/devtools/browser/c1f39456-1d9a-4de9-98ae-0913da14ae8a
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:53340
+1663352560389	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53341" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileztYqpK"
+*** You are running in headless mode.
+1663352560605	Marionette	INFO	Marionette enabled
+1663352560609	Marionette	INFO	Listening on port 53352
+WebDriver BiDi listening on ws://localhost:53341
+Read port: 53352
+1663352560757	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileztYqpK\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53341/devtools/browser/2a0a49ab-0d1a-4800-a355-ee8f76fa3cc5
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:53397
+1663352656023	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53398" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofile5tABqe"
+*** You are running in headless mode.
+1663352656238	Marionette	INFO	Marionette enabled
+1663352656241	Marionette	INFO	Listening on port 53408
+WebDriver BiDi listening on ws://localhost:53398
+Read port: 53408
+1663352656297	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofile5tABqe\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53398/devtools/browser/4bb15a6c-2e37-40c3-856c-03677158bb3a
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1:53473
+1663352809040	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53474" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileY7drGE"
+*** You are running in headless mode.
+1663352809261	Marionette	INFO	Marionette enabled
+1663352809264	Marionette	INFO	Listening on port 53484
+WebDriver BiDi listening on ws://localhost:53474
+Read port: 53484
+1663352809418	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileY7drGE\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53474/devtools/browser/8fa318cd-9de6-4f56-82f7-049955198afe
+1663352896566	geckodriver	INFO	Listening on 127.0.0.1:53570
+1663352899597	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53571" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileQC73mb"
+*** You are running in headless mode.
+1663352899824	Marionette	INFO	Marionette enabled
+1663352899827	Marionette	INFO	Listening on port 53582
+WebDriver BiDi listening on ws://localhost:53571
+Read port: 53582
+1663352899981	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileQC73mb\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53571/devtools/browser/5ac4c571-52c2-439e-8a8c-4d906341bf25
+JavaScript error: https://csgostats.gg/match/79000101, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000102, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000103, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000104, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000105, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000106, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000107, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000108, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000109, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000110, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000111, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000112, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000113, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000114, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000115, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000116, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000117, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000118, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000119, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000120, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000121, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000122, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000123, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000124, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000125, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000126, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000127, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000128, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000129, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000130, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000131, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000132, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000133, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000134, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000135, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000136, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000137, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000138, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000139, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000140, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000141, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000142, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000143, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000144, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000145, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000146, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000147, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000148, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000149, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000150, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000151, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000152, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000153, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000154, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000255, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000256, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000257, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000258, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000259, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000260, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000261, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000262, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000263, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000264, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000265, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000266, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000267, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000268, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000269, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000270, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000271, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000272, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000273, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000274, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000275, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000276, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000277, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000278, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000279, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000280, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000281, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000282, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000283, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000284, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000285, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000286, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000287, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000288, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000289, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000290, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000291, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000292, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000293, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000294, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000295, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000296, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000297, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000298, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000299, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000300, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000301, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000302, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000303, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000304, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000305, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000306, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000307, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000308, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000309, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000310, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000311, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000312, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000313, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000314, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000315, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000316, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000317, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000318, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000319, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000420, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000421, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000422, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000423, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000424, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000425, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000426, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000427, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000428, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000429, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000430, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000431, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000432, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000433, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000434, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000435, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000436, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000437, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000438, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000439, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000440, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000441, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000442, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000443, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000444, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000445, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000446, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000447, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000448, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000449, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000450, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000451, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000452, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000453, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000454, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000455, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000456, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000457, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000458, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000459, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000460, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000461, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000462, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000463, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000464, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000465, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000466, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000467, line 83: SecurityError: The operation is insecure.
+1663352937139	geckodriver	INFO	Listening on 127.0.0.1:53746
+1663352940181	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53747" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilemFq5Uo"
+*** You are running in headless mode.
+1663352940415	Marionette	INFO	Marionette enabled
+1663352940418	Marionette	INFO	Listening on port 53758
+WebDriver BiDi listening on ws://localhost:53747
+Read port: 53758
+1663352940576	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilemFq5Uo\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53747/devtools/browser/f78cea56-5663-4ce7-9bff-200e15057aa5
+1663352971653	geckodriver	INFO	Listening on 127.0.0.1:53799
+1663352974694	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53800" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileBETjWH"
+*** You are running in headless mode.
+1663352974921	Marionette	INFO	Marionette enabled
+1663352974924	Marionette	INFO	Listening on port 53810
+WebDriver BiDi listening on ws://localhost:53800
+Read port: 53810
+1663352975085	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileBETjWH\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53800/devtools/browser/54827119-559d-456c-86c6-dd92ba164082
+JavaScript error: https://csgostats.gg/match/79000101, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000102, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000103, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000104, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000105, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000106, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000107, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000108, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000109, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000110, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000111, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000112, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000113, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000114, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000115, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000116, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000117, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000118, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000119, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000120, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000121, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000122, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000123, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000124, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000125, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000126, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000127, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000128, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000129, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000130, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000131, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000132, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000133, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000134, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000135, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000136, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000137, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000138, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000139, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000140, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000141, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000142, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000143, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000144, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000145, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000146, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000147, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000148, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000149, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000150, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000151, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000152, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000153, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000154, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000155, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000156, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000157, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000158, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000159, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000160, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000161, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000162, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000163, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000164, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000165, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000166, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000167, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000168, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000169, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000170, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000171, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000172, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000173, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000274, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000275, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000276, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000277, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000278, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000279, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000280, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000281, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000282, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000283, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000284, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000285, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000286, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000287, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000288, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000289, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000290, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000291, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000292, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000293, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000294, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000295, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000296, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000297, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000298, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000299, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000300, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000301, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000302, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000303, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000304, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000305, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000306, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000307, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000308, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000309, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000310, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000311, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000312, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000313, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000314, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000315, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000316, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000317, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000318, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000319, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000320, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000321, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000322, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000323, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000324, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000325, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000326, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000327, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000328, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000329, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000330, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000331, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000332, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000333, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000334, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000435, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000436, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000437, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000438, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000439, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000440, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000441, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000442, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000443, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000444, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000445, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000446, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000447, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000448, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000449, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000450, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000451, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000452, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000453, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000454, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000455, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000456, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000457, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000458, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000459, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000460, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000461, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000462, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000463, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000464, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000465, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000466, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000467, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000468, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000469, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000470, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000471, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000472, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000473, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000474, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000475, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000476, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000477, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000478, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000479, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000480, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000481, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000482, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000483, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000484, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000485, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000486, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000487, line 83: SecurityError: The operation is insecure.
+JavaScript error: https://csgostats.gg/match/79000488, line 83: SecurityError: The operation is insecure.
+1663353010491	Marionette	INFO	Stopped listening on port 53810
+1663353120057	geckodriver	INFO	Listening on 127.0.0.1:53987
+1663353123089	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "53988" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileXHZ03B"
+*** You are running in headless mode.
+1663353123315	Marionette	INFO	Marionette enabled
+1663353123318	Marionette	INFO	Listening on port 53998
+WebDriver BiDi listening on ws://localhost:53988
+Read port: 53998
+1663353123463	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofileXHZ03B\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53988/devtools/browser/93fd8561-ced0-45d5-9ed8-c579e613b911
+1663353128242	Marionette	INFO	Stopped listening on port 53998
+1663353280020	geckodriver	INFO	Listening on 127.0.0.1:54091
+1663353283051	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "54092" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofile8UtwiX"
+*** You are running in headless mode.
+1663353283263	Marionette	INFO	Marionette enabled
+1663353283265	Marionette	INFO	Listening on port 54102
+WebDriver BiDi listening on ws://localhost:54092
+Read port: 54102
+1663353283321	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofile8UtwiX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54092/devtools/browser/8371ef08-717f-4d79-aa49-f4ee9b408ef7
+1663353288412	Marionette	INFO	Stopped listening on port 54102
+1663353335367	geckodriver	INFO	Listening on 127.0.0.1:54177
+1663353338394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "54178" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilevVJ8uX"
+*** You are running in headless mode.
+1663353338608	Marionette	INFO	Marionette enabled
+1663353338611	Marionette	INFO	Listening on port 54189
+WebDriver BiDi listening on ws://localhost:54178
+Read port: 54189
+1663353338755	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilevVJ8uX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54178/devtools/browser/bbe378ad-dbcc-4160-89b8-fd11f61000a5
+1663353343791	Marionette	INFO	Stopped listening on port 54189
+1663353403146	geckodriver	INFO	Listening on 127.0.0.1:54264
+1663353406192	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-headless" "--window-size=1920,1200" "--remote-debugging-port" "54265" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilekoyy7c"
+*** You are running in headless mode.
+1663353406398	Marionette	INFO	Marionette enabled
+1663353406401	Marionette	INFO	Listening on port 54275
+WebDriver BiDi listening on ws://localhost:54265
+Read port: 54275
+1663353406458	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\Howne\\AppData\\Local\\Temp\\rust_mozprofilekoyy7c\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:54265/devtools/browser/8debf5e6-592d-49b4-988d-9ab99611c8e2
+1663353411580	Marionette	INFO	Stopped listening on port 54275
