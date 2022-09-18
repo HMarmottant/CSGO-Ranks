@@ -41,14 +41,21 @@ def fetchMatch(matchID, driver):
                 playerstats["Rank Gain"] = 0        
             
             # print(stats["rank gain"])
-            teamScore = player.find_element(By.XPATH,"./..")
-            teamScore = teamScore.find_element(By.XPATH,"./..")
-            teamScore = teamScore.find_element(By.XPATH,"./..")
+            # teamScore = player.find_element(By.XPATH,"./..")
+            # teamScore = teamScore.find_element(By.XPATH,"./..")
+            team = PCard.find_element(By.XPATH,"./..")
             
             #teamScore = teamScore.find_element(By.ID,'match-scoreboard')
             #teamScore = teamScore.find_element(By.CLASS_NAME,'scoreboard')
             
-            playerstats["Team"] = teamScore.find_element(By.XPATH, "./tr/td/div").get_attribute("textContent").strip() [-1:]
+            playerstats["Team"] = team.find_element(By.XPATH, "./tr/td/div").get_attribute("textContent").strip() [-1:]
+
+            teams = team.find_element(By.XPATH,"./..")
+
+            scores = teams.find_elements(By.XPATH, "./tbody/tr/td/div[2]")
+
+            playerstats["Team 1 Score"] = scores[0].get_attribute("textContent").strip()
+            playerstats["Team 2 Score"] = scores[1].get_attribute("textContent").strip()
 
             stats = PCard.find_elements(By.TAG_NAME, "td")
 
@@ -98,7 +105,7 @@ def fetchMatch(matchID, driver):
             playerstats["2K"] =                 stats[40].get_attribute("textContent").strip()  
             playerstats["1K"] =                 stats[41].get_attribute("textContent").strip()  
         
-            # print(stats["team"])
+            # print(playerstats["Team Score"])
             match.append(playerstats)
         return match
         
@@ -108,13 +115,7 @@ def fetchMatch(matchID, driver):
 
 def multiFetch(offset,nb,driver):
     
-    columns = ['Match ID', 'Player ID', 'Rank', 'Rank Gain', 'Team', 'K', 'D', 'A',
-        '+/-', 'K/D', 'ADR', 'HS%', 'KAST', 'Rating', 'EF', 'FA', 'EBT', 'UD',
-        'FKD', 'FK', 'FD', 'FK as T', 'FD as T', 'FK as CT', 'FD as CT',
-        'Trade K', 'Trade D', 'Trade FK', 'Trade FD', 'Trade FK as T',
-        'Trade FD as T', 'Trade FK as CT', 'Trade FD as CT', '1vX', '1v5',
-        '1v4', '1v3', '1v2', '1v1', '3K+', '5K', '4K', '3K', '2K', '1K']
-    df = pd.DataFrame(columns= columns)
+    df = pd.DataFrame()
 
     # frame = []
 
@@ -127,7 +128,7 @@ def multiFetch(offset,nb,driver):
         res = fetchMatch((offset + i),driver)
         # sleep(1)
         # print(res)
-        df = pd.concat([pd.DataFrame(res,columns= columns),df])
+        df = pd.concat([pd.DataFrame(res),df])
         # driver.execute_script("window.open();")
         # driver.close()
         # driver.switch_to.window(driver.window_handles[-1])
@@ -135,7 +136,7 @@ def multiFetch(offset,nb,driver):
 
     driver.quit()
 
-    df.to_csv("matches"+str(offset)+".csv")
+    df.to_csv("./matches/matches"+str(offset)+".csv")
     # print(frame)
     # df = pd.concat(frame)
     # display(df)
@@ -146,22 +147,15 @@ def testing(offset):
 
 
 if __name__ == '__main__':
-
-    columns = ['Match ID', 'Player ID', 'Rank', 'Rank Gain', 'Team', 'K', 'D', 'A',
-            '+/-', 'K/D', 'ADR', 'HS%', 'KAST', 'Rating', 'EF', 'FA', 'EBT', 'UD',
-            'FKD', 'FK', 'FD', 'FK as T', 'FD as T', 'FK as CT', 'FD as CT',
-            'Trade K', 'Trade D', 'Trade FK', 'Trade FD', 'Trade FK as T',
-            'Trade FD as T', 'Trade FK as CT', 'Trade FD as CT', '1vX', '1v5',
-            '1v4', '1v3', '1v2', '1v1', '3K+', '5K', '4K', '3K', '2K', '1K']
             
-    df = pd.DataFrame(columns= columns)
+    # df = pd.DataFrame()
 
     offset = int(sys.argv[1])
-    print(offset)
+    # print(offset)
     step = int(sys.argv[2])
-    print(step)
+    # print(step)
     nb = int(sys.argv[3])
-    print(nb)
+    # print(nb)
 
     print(offset + (nb*step),step)
 
