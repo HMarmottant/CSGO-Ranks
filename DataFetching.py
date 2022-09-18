@@ -1,3 +1,4 @@
+import sys
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from selenium.webdriver.common.by import By
@@ -105,7 +106,7 @@ def fetchMatch(matchID, driver):
         return []
 
 
-def multiFetch(offset):
+def multiFetch(offset,nb,driver):
     
     columns = ['Match ID', 'Player ID', 'Rank', 'Rank Gain', 'Team', 'K', 'D', 'A',
         '+/-', 'K/D', 'ADR', 'HS%', 'KAST', 'Rating', 'EF', 'FA', 'EBT', 'UD',
@@ -117,14 +118,12 @@ def multiFetch(offset):
 
     # frame = []
 
-    options = webdriver.ChromeOptions()
-    # options.add_argument("--headless")
-    driver = undetected_chromedriver.Chrome(options= options)
+    
 
     # driver.implicitly_wait(0.1)
     # driver.execute_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
-    for i in range(10):
+    for i in range(nb):
         res = fetchMatch((offset + i),driver)
         # sleep(1)
         # print(res)
@@ -157,29 +156,50 @@ if __name__ == '__main__':
             
     df = pd.DataFrame(columns= columns)
 
-    nb = 10
+    offset = int(sys.argv[1])
+    print(offset)
+    step = int(sys.argv[2])
+    print(step)
+    nb = int(sys.argv[3])
+    print(nb)
 
-    nbarray = []
+    print(offset + (nb*step),step)
 
-    for i in range(0,nb * os.cpu_count()-1,nb):
-        nbarray.append(i + 79000000)
+    options = webdriver.ChromeOptions()
+    # options.add_argument("--headless")
+    driver = undetected_chromedriver.Chrome(options= options)
+
+    multiFetch(offset + (nb*step),step,driver)
+
+    # nb = 10
+
+    # nbarray = []
+
+    # for i in range(0,nb * os.cpu_count()-1,nb):
+    #     nbarray.append(i + 79000000)
 
     # print(nbarray)
 
 
-    number_of_threads = 5
+    # number_of_threads = 5
 
-    barrier = Barrier(number_of_threads)
+    # barrier = Barrier(number_of_threads)
 
-    threads = []
+    # threads = []
 
-    for i in range(number_of_threads):
-        t = Thread(target=multiFetch(nbarray[i]), args=(barrier,)) 
-        t.start()
-        threads.append(t)
+    # for i in range(number_of_threads):
+    #     options = webdriver.ChromeOptions()
+    #     # options.add_argument("--headless")
+    #     driver = undetected_chromedriver.Chrome(options= options)
 
-    for t in threads:
-        t.join()
+    #     # print("here")
+
+    #     t = Thread(target=multiFetch(nbarray[i],nb,driver),daemon= True) 
+    #     t.start()
+    #     threads.append(t)
+
+    # for t in threads:
+    #     t.join()
 
     # print(df)
     # df.to_csv("test.csv")
