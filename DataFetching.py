@@ -11,8 +11,8 @@ import os
 def fetchMatch(matchID, driver):
     driver.get("https://csgostats.gg/match/" + str(matchID))
     
-    mm = driver.find_element(By.XPATH,"//body/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[1]/div")
-    if(mm.get_attribute("textContent").strip()[:20] == "Official Matchmaking"):
+    mm = driver.find_elements(By.XPATH,"//body/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[1]/div")
+    if((mm.__len__() >= 1) and (mm[0].get_attribute("textContent").strip()[:20] == "Official Matchmaking")):
         players =  driver.find_elements( By.CLASS_NAME, 'player-link')
         match = []
         for player in players:
@@ -21,9 +21,14 @@ def fetchMatch(matchID, driver):
             playerstats["Match ID"] = matchID
             playerstats["Player ID"] = player.get_attribute('href')[-17:-1]
 
+            macthdate =  driver.find_elements( By.CLASS_NAME, 'match-date-text')
+            if(macthdate.__len__()):
+                macthdate = macthdate[0].get_attribute("textContent").strip()
+
             PCard = player.find_element(By.XPATH,"./..").find_element(By.XPATH,"./..")
 
             rank = PCard.find_elements(By.CLASS_NAME, "rank")
+
             if rank.__len__():
                 playerstats["Rank"] = (rank[0].get_attribute("src"))[-6:-4].strip("/")
 
@@ -61,8 +66,6 @@ def fetchMatch(matchID, driver):
 
             # for stat in stats:
             #     print(stat.get_attribute("data-collapse"),stat.get_attribute("textContent").strip() )
-            
-            
 
             playerstats["K"] =                  stats[2].get_attribute("textContent").strip()
             playerstats["D"] =                  stats[3].get_attribute("textContent").strip()  
@@ -132,11 +135,15 @@ def multiFetch(offset,nb,driver):
         # driver.execute_script("window.open();")
         # driver.close()
         # driver.switch_to.window(driver.window_handles[-1])
-        
+        if((i != 0) and (i%100 == 0)):
+            df.to_csv("./matches/matches"+str(offset + i)+".csv")
+            df = pd.DataFrame()
 
+        
     driver.quit()
 
-    df.to_csv("./matches/matches"+str(offset)+".csv")
+    df.to_csv("./matches/matchesrest"+str(offset + nb)+".csv")
+
     # print(frame)
     # df = pd.concat(frame)
     # display(df)
