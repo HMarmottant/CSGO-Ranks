@@ -1,8 +1,8 @@
 @echo off
 
-set /A instances=15
-set /A offset=79100000
-set /A step=6250
+set /A instances=19
+set /A offset=79200000
+set /A step=5000
 
 rem python might not be in your path as py you can replace it with the direct path to your python.exe for example
 

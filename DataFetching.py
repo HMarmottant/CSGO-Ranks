@@ -12,6 +12,11 @@ def fetchMatch(matchID, driver):
     driver.get("https://csgostats.gg/match/" + str(matchID))
     
     mm = driver.find_elements(By.XPATH,"//body/div[2]/div[1]/div[2]/div/div[1]/div[2]/div[1]/div")
+
+    macthdate =  driver.find_elements( By.CLASS_NAME, 'match-date-text')
+    if(macthdate.__len__()):
+        macthdate = macthdate[0].get_attribute("textContent").strip()
+        
     if((mm.__len__() >= 1) and (mm[0].get_attribute("textContent").strip()[:20] == "Official Matchmaking")):
         players =  driver.find_elements( By.CLASS_NAME, 'player-link')
         match = []
@@ -19,11 +24,9 @@ def fetchMatch(matchID, driver):
 
             playerstats = {}
             playerstats["Match ID"] = matchID
+            playerstats["Match Date"] = macthdate
             playerstats["Player ID"] = player.get_attribute('href')[-17:-1]
 
-            macthdate =  driver.find_elements( By.CLASS_NAME, 'match-date-text')
-            if(macthdate.__len__()):
-                macthdate = macthdate[0].get_attribute("textContent").strip()
 
             PCard = player.find_element(By.XPATH,"./..").find_element(By.XPATH,"./..")
 
