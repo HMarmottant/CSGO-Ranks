@@ -25,7 +25,7 @@ def fetchMatch(matchID, driver):
             playerstats = {}
             playerstats["Match ID"] = matchID
             playerstats["Match Date"] = macthdate
-            playerstats["Player ID"] = player.get_attribute('href')[-17:-1]
+            playerstats["Player ID"] = player.get_attribute('href')[-17:]
 
 
             PCard = player.find_element(By.XPATH,"./..").find_element(By.XPATH,"./..")
